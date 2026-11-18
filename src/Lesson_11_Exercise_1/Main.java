@@ -22,18 +22,18 @@ public class Main {
          *
          */
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner1 = new Scanner(System.in);
 
         System.out.println("What will your first number be?: ");
-        int firstNum = scanner.nextInt();
+        int firstNum = scanner1.nextInt();
         System.out.println("Your first number is " + firstNum );
 
         System.out.println("What will your second number be?: ");
-        int secondNum = scanner.nextInt();
+        int secondNum = scanner1.nextInt();
         System.out.println("Your second number is " + secondNum);
 
         System.out.println("What operation would you like to perform with your chosen numbers?: ");
-        String operation = scanner.next();
+        String operation = scanner1.next();
         switch (operation) {
             case "addition": System.out.println("Your final number is " + (firstNum + secondNum)); break;
             case "multiplication":  System.out.println("Your final number is " + (firstNum * secondNum)); break;
@@ -73,7 +73,7 @@ public class Main {
         int correctMineScore = 0;
         Scanner scanner = new Scanner(System.in);
         String ToolChoice;
-        int toolChoiceID = 0;
+        int toolChoiceID;
 
 
         // FIRST MINE

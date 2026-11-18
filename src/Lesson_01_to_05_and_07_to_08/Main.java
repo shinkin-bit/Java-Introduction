@@ -173,6 +173,7 @@ public class Main {
         boolean ShinkinSwag = true;
         boolean ShinkinRich = false;
         System.out.println("Shinkin is swag " + ShinkinSwag);
+        System.out.println("Shinkin is rich " + ShinkinRich);
 
         boolean isCreative = false;
         System.out.println("Player is in creative mode: " + isCreative);
